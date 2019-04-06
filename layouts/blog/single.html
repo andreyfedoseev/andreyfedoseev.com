@@ -1,0 +1,21 @@
+{{ define "content" }}
+  <article class="full-article">
+    <header>
+      <h1 class="article-title">{{ .Title }}</h1>
+    </header>
+    {{ .Content }}
+    <hr>
+    <footer>
+      <div class="article-publication-date">
+        {{ T "publishedOn" }}
+        <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+      </div>
+      {{ with .Params.topics }}
+      <div class="article-topics">
+        {{ T "topics" }}:
+        <ul>{{ range . }}<li class="list">{{ partial "topic-link.html" . }}</li>{{ end }}</ul>
+      </div>
+      {{ end }}
+    </footer>
+  </article>
+{{ end }}

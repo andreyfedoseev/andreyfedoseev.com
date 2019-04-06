@@ -1,0 +1,20 @@
+[publishedOn]
+other = "Опубликовано"
+
+[topics]
+other = "Темы"
+
+[mainTopics]
+other = "Главные темы"
+
+[allTopics]
+other = "Все темы"
+
+[otherTopics]
+other = "Прочие темы"
+
+[recentEntries]
+other = "Последние записи в блоге"
+
+[allEntries]
+other = "Все записи"

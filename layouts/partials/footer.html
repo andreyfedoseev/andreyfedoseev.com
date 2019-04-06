@@ -1,0 +1,10 @@
+<footer class="global container d-flex justify-content-between">
+  <nav>
+    <ul>
+      {{ partial "main-navigation.html" . }}
+    </ul>
+  </nav>
+  <div>
+    &copy; {{ .Site.Title }}, 2010 &mdash; {{ now.Format "2006" }}
+  </div>
+</footer>

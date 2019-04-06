@@ -1,0 +1,7 @@
+{{ define "content" }}
+  {{ .Page.Content }}
+  <hr>
+  {{ partial "main-topics.html" . }}
+  <hr>
+  {{ partial "recent-entries.html" . }}
+{{ end }}

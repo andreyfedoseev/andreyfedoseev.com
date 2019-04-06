@@ -1,0 +1,8 @@
+{{ define "content" }}
+  <h1 class="section-title">{{ .Title }}</h1>
+  {{ range .Pages }}
+    <article>
+      <h2><a href="{{ .URL }}">{{ .Title }}</a></h2>
+    </article>
+  {{ end }}
+{{ end }}

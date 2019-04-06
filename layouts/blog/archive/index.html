@@ -1,0 +1,38 @@
+{{ define "content" }}
+{{ $months := index .Site.Data.months .Site.Language.Lang }}
+{{ with .Site.GetPage "blog" }}
+  {{ $currentYear := "" }}
+  {{ range .Pages.GroupByDate "2006" }}
+    {{ $year := .Key }}
+    {{ if ne $currentYear $year }}
+      {{ if ne $currentYear "" }}
+        </div>
+        </section>
+        <hr>
+      {{ end }}
+        <section class="archive-year">
+        <h1 id="{{ $year }}">{{ $year }}</h1>
+        <div class="row">
+      {{ $currentYear = $year }}
+    {{ end }}
+    {{ range sort (.Pages.GroupByDate "01") "Key" "asc" }}
+      {{ $month := .Key }}
+      <section class="col-md-6 archive-month">
+        <h1>{{ index $months $month }}</h1>
+        <nav>
+          <ol>
+            {{ range sort .Pages "Date" "asc" }}
+              <li>
+                <span class="archive-day">{{ .Date.Day }}</span>
+                {{ partial "article-list-item.html" . }}
+              </li>
+            {{ end }}
+          </ol>
+        </nav>
+      </section>
+    {{ end }}
+    </div>
+    </section>
+  {{ end }}
+{{ end }}
+{{ end }}

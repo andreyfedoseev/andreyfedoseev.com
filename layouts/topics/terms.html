@@ -1,0 +1,27 @@
+{{ define  "content" }}
+  {{ $topTopics := first 5 .Data.Terms.ByCount }}
+  {{ $miscTopics := after 5 .Data.Terms.ByCount }}
+  <section>
+    <h1 class="section-title">{{ T "mainTopics" }}</h1>
+    <ul class="topic-list top-topics">
+    	{{ range $topTopics }}
+    	  <li>
+    	    {{ partial "topic-link.html" .Term }}
+        </li>
+    	{{ end }}
+    </ul>
+  </section>
+  {{ if $miscTopics }}
+    <hr>
+    <section>
+      <h1 class="section-title">{{ T "otherTopics" }}</h1>
+      <ul class="topic-list">
+        {{ range $miscTopics }}
+          <li>
+            {{ partial "topic-link.html" .Term }}
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,28 @@
+<section>
+  {{ with .Pages | first 10 }}
+  <h1 class="section-title">{{ T "recentEntries" }}</h1>
+  <div class="row">
+  {{ with . | first 5 }}
+    <ol class="col-md-6 article-list">
+    {{ range . }}
+        <li>
+          {{ partial "article-list-item.html" . }}
+        </li>
+      {{ end }}
+    </ol>
+  {{ end }}
+  {{ with . | after 5 }}
+    <ol class="col-md-6 article-list">
+      {{ range . }}
+        <li>
+          {{ partial "article-list-item.html" . }}
+        </li>
+      {{ end }}
+    </ol>
+  {{ end }}
+  </div>
+  {{ end }}
+  {{ with .Site.Pages | after 10 }}
+    <strong><a href="{{ "blog/archive/" | absURL }}">{{ T "allEntries" }}</a></strong>
+  {{ end }}
+</section>

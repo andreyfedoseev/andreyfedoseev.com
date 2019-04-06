@@ -1,0 +1,20 @@
+[publishedOn]
+other = "Published on"
+
+[topics]
+other = "Topics"
+
+[mainTopics]
+other = "Main Topics"
+
+[allTopics]
+other = "All topics"
+
+[otherTopics]
+other = "Other topics"
+
+[recentEntries]
+other = "Recent Blog Entries"
+
+[allEntries]
+other = "All Entries"

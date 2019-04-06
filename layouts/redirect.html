@@ -1,0 +1,9 @@
+{{ define "html" }}
+  <head>
+  	<meta http-equiv="refresh" content="0; url={{ .Params.redirect_to }}" />
+    <script>
+      window.location.href = "{{ .Params.redirect_to }}"
+    </script>
+  </head>
+  <body></body>
+{{ end }}

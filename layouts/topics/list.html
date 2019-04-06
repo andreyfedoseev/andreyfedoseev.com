@@ -1,0 +1,20 @@
+{{ define "content" }}
+  <h1 class="section-title">{{ .Title }}</h1>
+  <div class="row">
+  {{ $mid := math.Ceil (div (len .Pages) 2.0) }}
+  <ol class="col-md-6 article-list">
+    {{ range first $mid .Pages }}
+      <li>
+      	{{ partial "article-list-item.html" .}}
+      </li>
+    {{ end }}
+  </ol>
+  <ol class="col-md-6 article-list">
+    {{ range after $mid .Pages }}
+      <li>
+      	{{ partial "article-list-item.html" .}}
+      </li>
+    {{ end }}
+  </ol>
+  </div>
+{{ end }}

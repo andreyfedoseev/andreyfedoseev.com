@@ -1,0 +1,16 @@
+@import "mixins";
+
+footer.global {
+  position: relative;
+  padding: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: #f5f5f5;
+  ul {
+    @include no-bullets;
+    @include inline-block-list;
+  }
+  li {
+    margin-right: 1em;
+  }
+}

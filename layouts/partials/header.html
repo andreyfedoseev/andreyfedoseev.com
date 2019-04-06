@@ -1,0 +1,27 @@
+<header class="global container d-flex justify-content-between">
+  <div>
+  {{ if (or .IsHome ( eq .File.Path "blog/_index.md")) }}
+    <h1>{{ .Site.Title }} </h1>
+  {{ end }}
+  <nav>
+    <ul>
+      {{ if not (or .IsHome ( eq .File.Path "blog/_index.md")) }}
+        <li>
+          <strong><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></strong>
+        </li>
+      {{ end }}
+      {{ partial "main-navigation.html" . }}
+    </ul>
+  </nav>
+  </div>
+  <nav class="languages">
+  {{ $currentLang := .Site.Language.Lang }}
+  <ul>
+    {{ range $.Site.Home.AllTranslations }}
+      {{ if ne .Lang $currentLang }}
+        <li><a href="{{ .Permalink }}">{{ .Lang }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+  </nav>
+</header>

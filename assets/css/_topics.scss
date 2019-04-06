@@ -1,0 +1,17 @@
+@import "mixins";
+
+.topic-list {
+  @include no-bullet;
+  padding: 0;
+  margin-bottom: 1em;
+  li {
+    @include inline-block;
+    margin-right: 1em;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &.main-topics {
+    font-size: 1.3em;
+  }
+}
