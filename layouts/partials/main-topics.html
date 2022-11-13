@@ -1,16 +1,19 @@
 <section>
   <h1 class="section-title">{{ T "mainTopics" }}</h1>
-  {{ $sortedTags := .Site.Taxonomies.topics.ByCount }}
+  {{ $topics := .Site.Taxonomies.topics }}
+  {{ $sortedTags := $topics.ByCount }}
   {{ with $sortedTags | first 5 }}
   <ul class="topic-list">
     {{ range . }}
       <li>
-        {{ partial "topic-link.html" .Name }}
+        {{ partial "topic-link.html" . }}
       </li>
     {{ end }}
   </ul>
   {{ end }}
   {{ with $sortedTags | after 5 }}
-    <a href="{{ "topics/" | absURL }}"><strong>{{ T "allTopics" }}</strong></a>
+    {{ with $.Site.GetPage "topics" }}
+      <a href="{{ .Permalink }}"><strong>{{ T "allTopics" }}</strong></a>
+    {{ end }}
   {{ end }}
 </section>

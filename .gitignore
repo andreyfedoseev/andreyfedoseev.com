@@ -1,5 +1,7 @@
 .idea
+.vscode
 /public/
 /resources
 .env
 convert.go
+/.hugo_build.lock

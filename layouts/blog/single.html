@@ -10,12 +10,14 @@
         {{ T "publishedOn" }}
         <time datetime="{{ .PublishDate.Format "2006-01-02T15:04:05" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
       </div>
-      {{ with .Params.topics }}
       <div class="article-topics">
         {{ T "topics" }}:
-        <ul>{{ range . }}<li class="list">{{ partial "topic-link.html" . }}</li>{{ end }}</ul>
+        <ul>
+          {{ range (.GetTerms "topics") }}
+            <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+          {{ end }}
+        </ul>
       </div>
-      {{ end }}
     </footer>
   </article>
 {{ end }}

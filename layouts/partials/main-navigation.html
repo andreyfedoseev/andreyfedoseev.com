@@ -1,10 +1,11 @@
 {{ $currentPage := . }}
 {{ range .Site.Menus.main }}
+  {{ $menuItemURL := .URL | absLangURL }}
   <li>
-    {{ if $currentPage.IsMenuCurrent "main" . }}
+    {{ if eq $currentPage.Permalink $menuItemURL }}
       <strong>{{ .Title }}</strong>
     {{ else }}
-      <a href="{{ .URL }}">{{ .Title }}</a>
+      <a href="{{ $menuItemURL }}">{{ .Title }}</a>
     {{ end }}
   </li>
 {{ end }}

@@ -6,7 +6,7 @@
     <ul class="topic-list top-topics">
     	{{ range $topTopics }}
     	  <li>
-    	    {{ partial "topic-link.html" .Term }}
+    	    {{ partial "topic-link.html" . }}
         </li>
     	{{ end }}
     </ul>
@@ -18,7 +18,7 @@
       <ul class="topic-list">
         {{ range $miscTopics }}
           <li>
-            {{ partial "topic-link.html" .Term }}
+            {{ partial "topic-link.html" . }}
           </li>
         {{ end }}
       </ul>

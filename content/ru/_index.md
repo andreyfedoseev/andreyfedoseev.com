@@ -1,5 +1,5 @@
 ---
 title: "Андрей Федосеев"
-redirect_to: "/blog/"
+redirect_to: "/ru/blog/"
 layout: "redirect"
 ---
