@@ -3,7 +3,7 @@ title: "Бразильский транс"
 date: "2010-02-25T15:22:00"
 topics:
   - "музыка"
-slug: "17/brazilskij-trans"
+slug: "17-brazilskij-trans"
 feed: false
 ---
 <p>Пробую вставлять в бложек всякую интересную музыку. Например, вот такой прикольный бразильский транс, который я нашёл на <a href="http://www.jamendo.com/ru/">Jamendo</a>.</p>

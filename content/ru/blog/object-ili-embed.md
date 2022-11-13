@@ -3,7 +3,7 @@ title: "<object>, <embed> и валидный код"
 date: "2010-03-05T02:00:00"
 topics:
   - "веб-разработка"
-slug: "25/object-ili-embed"
+slug: "25-object-ili-embed"
 feed: false
 ---
 <p>В детстве нас всех учили, что для встраивания флэша на страницу нужно пользоваться тегами <code>object</code> и <code>embed</code>. Объясняли это тем, что <code>object</code> используется Internet Explorer'ом на винде, а браузеры, основанные на Netscape понимают только <code>embed</code>.</p>

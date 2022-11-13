@@ -23,6 +23,6 @@
   </div>
   {{ end }}
   {{ with .Site.Pages | after 10 }}
-    <strong><a href="{{ "blog/archive/" | absURL }}">{{ T "allEntries" }}</a></strong>
+    <strong><a href="{{ "blog/archive/" | absLangURL }}">{{ T "allEntries" }}</a></strong>
   {{ end }}
 </section>

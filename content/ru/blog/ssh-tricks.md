@@ -5,7 +5,7 @@ topics:
   - "ssh"
   - "перевод"
   - "linux"
-slug: "51/ssh-tricks"
+slug: "51-ssh-tricks"
 feed: false
 ---
 Ниже представлен мой перевод замечательной статьи SSH Tricks, оригинал которой расположен по адресу: [http://polishlinux.org/apps/ssh-tricks](http://polishlinux.org/apps/ssh-tricks). Публикуется с согласия автора оригинальной статьи.

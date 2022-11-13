@@ -3,7 +3,7 @@ title: "Пара слов про Google+"
 date: "2011-07-09T00:18:00"
 topics:
   - "google+"
-slug: "42/google-plus"
+slug: "42-google-plus"
 feed: false
 ---
 Это круто!

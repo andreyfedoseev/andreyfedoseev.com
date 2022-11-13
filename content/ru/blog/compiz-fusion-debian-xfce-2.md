@@ -3,7 +3,7 @@ title: "Установка Compiz Fusion (Debian + Xfce)"
 date: "2008-02-11T01:27:00"
 topics:
   - "linux"
-slug: "50/compiz-fusion-debian-xfce-2"
+slug: "50-compiz-fusion-debian-xfce-2"
 feed: false
 ---
 В этой заметке я опишу процесс установки и базовой настройки оконного менеджера Compiz Fusion в Debian с рабочим окружением Xfce. [Ранее я писал об этом](http://cornelius.net.ru/blog/compiz-fusion-debian-xfce), но время не стоит на месте, и те инструкции уже устарели.

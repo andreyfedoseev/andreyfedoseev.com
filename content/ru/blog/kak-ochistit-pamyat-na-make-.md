@@ -3,7 +3,7 @@ title: "Как «очистить» память на Маке "
 date: "2011-12-29T11:34:00"
 topics:
   - "mac"
-slug: "61/kak-ochistit-pamyat-na-make-"
+slug: "61-kak-ochistit-pamyat-na-make-"
 feed: false
 ---
 «Очистить» память на Маке очень просто. Надо открыть терминал, набрать команду `purge` и нажать Enter. Всё. Никакие дополнительные программы за $0.99 из App Store для этого не нужны.

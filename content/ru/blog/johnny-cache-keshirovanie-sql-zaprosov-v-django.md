@@ -5,7 +5,7 @@ topics:
   - "django"
   - "sql"
   - "кэширование"
-slug: "22/johnny-cache-keshirovanie-sql-zaprosov-v-django"
+slug: "22-johnny-cache-keshirovanie-sql-zaprosov-v-django"
 feed: false
 ---
 <p>Оказывается, Джонни Кэш — это не только имя <a href="http://andreyfedoseev.name/blog/post/2/johnny-cash-gods-gonna-cut-you-down/">легендарного кантри-певца</a>. Такое же название носит модуль для кэширования SQL-запросов в Django.</p>

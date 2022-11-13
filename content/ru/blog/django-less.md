@@ -5,7 +5,7 @@ topics:
   - "css"
   - "django"
   - "less"
-slug: "32/django-less"
+slug: "32-django-less"
 feed: false
 ---
 <p>А вот и <a href="http://pypi.python.org/pypi/django-less/">django-less</a> подоспел.</p>

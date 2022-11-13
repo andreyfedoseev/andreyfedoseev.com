@@ -5,7 +5,7 @@ topics:
   - "android"
   - "iphone"
   - "интерфейсы"
-slug: "37/pro-knopku-nazad-v-android-telefonah"
+slug: "37-pro-knopku-nazad-v-android-telefonah"
 feed: false
 ---
 Я считаю, что отсутствие кнопки *Назад* в iPhone/iPad лучше, чем её наличие в устройствах с Android. Проблема в том, что я не могу заранее знать, куда она меня перенесёт.

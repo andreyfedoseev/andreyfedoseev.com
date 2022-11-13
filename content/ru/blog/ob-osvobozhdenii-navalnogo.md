@@ -3,7 +3,7 @@ title: "Об освобождении Навального"
 date: "2011-12-20T22:56:51.005"
 topics:
   - "политика"
-slug: "59/ob-osvobozhdenii-navalnogo"
+slug: "59-ob-osvobozhdenii-navalnogo"
 feed: false
 ---
 Высказывания на политические темы я обычно делаю в [Твиттере](https://twitter.com/#!/a_fedoseev), но тут вопрос серьёзный и в 140 символов не влезет.

@@ -4,7 +4,7 @@ date: "2010-01-14T03:02:00"
 topics:
   - "идиоты"
   - "twitter"
-slug: "10/vdogonku-pro-twitter"
+slug: "10-vdogonku-pro-twitter"
 feed: false
 ---
 <p>Только что меня зафолловил <a href="http://twitter.com/Butrimenko">некто</a>. Я разумеется зашёл почитать, что он пишет. И, должен вам признаться, это прекрасно (читать снизу вверх, this is Twitter!):</p>

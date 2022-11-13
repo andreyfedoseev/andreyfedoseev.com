@@ -3,7 +3,7 @@ title: "jquery-textareaPreview"
 date: "2011-06-27T10:28:00"
 topics:
   - "jquery"
-slug: "34/jquery-textareapreview"
+slug: "34-jquery-textareapreview"
 feed: false
 ---
 **jquery-textareaPreview** is a jQuery plugin to add realtime preview panel to textareas, similar to StackOverflow edit interface.

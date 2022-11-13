@@ -5,7 +5,7 @@ topics:
   - "django"
   - "git"
   - "postgresql"
-slug: "45/otdelnaya-baza-dannyih-django-dlya-kazhdoj-vetki-g"
+slug: "45-otdelnaya-baza-dannyih-django-dlya-kazhdoj-vetki-g"
 feed: false
 ---
 В работе с Django я часто сталкиваюсь с такой ситуацией: создаю ветку, в которой хочу поменять структуру базы, добавить или удалить модели. При этом существует вероятность, что в процессе работы над этой веткой мне понадобится переключиться на другую ветку, которая завязана на другую структуру данных.

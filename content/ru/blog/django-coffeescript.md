@@ -4,7 +4,7 @@ date: "2011-06-15T11:08:33.945"
 topics:
   - "coffeescript"
   - "django"
-slug: "31/django-coffeescript"
+slug: "31-django-coffeescript"
 feed: false
 ---
 <p>Решил побаловаться с <a href="http://jashkenas.github.com/coffee-script/">CoffeeScript</a>, в частности использовать его вместо JavaScript у себя в бложике.</p>

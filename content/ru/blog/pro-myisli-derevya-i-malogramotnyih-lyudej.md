@@ -4,7 +4,7 @@ date: "2011-08-06T10:31:46.412"
 topics:
   - "идиоты"
   - "русский язык"
-slug: "47/pro-myisli-derevya-i-malogramotnyih-lyudej"
+slug: "47-pro-myisli-derevya-i-malogramotnyih-lyudej"
 feed: false
 ---
 ![thoughts-and-trees](/images/thoughts-and-trees.png)

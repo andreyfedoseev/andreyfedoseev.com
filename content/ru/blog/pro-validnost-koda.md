@@ -3,7 +3,7 @@ title: "Про валидность кода"
 date: "2010-01-14T04:12:00"
 topics:
   - "веб-разработка"
-slug: "12/pro-validnost-koda"
+slug: "12-pro-validnost-koda"
 feed: false
 ---
 <p>На stackoverflow.com недавно был такой вопрос <a href="http://stackoverflow.com/questions/1967191/why-would-google-use-a-font-tag">«Why would Google use a font tag?»</a>. И на него был дан такой ответ:</p>

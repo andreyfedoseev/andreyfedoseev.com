@@ -1,7 +1,7 @@
 ---
 title: "Про Яндекс, megafail и секс-шоп"
 date: "2011-07-25T15:54:00"
-slug: "44/yandex-megafail-sex-shop"
+slug: "44-yandex-megafail-sex-shop"
 feed: false
 ---
 Все уже слышали про [megafail](http://lenta.ru/news/2011/07/18/megafail/). А теперь вот случился [секс-шоп-фейл](http://internet.cnews.ru/news/top/index.shtml?2011/07/25/448674). Это вообще жесть, там даже домашние адреса указаны.

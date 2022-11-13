@@ -4,7 +4,7 @@ date: "2010-01-10T05:15:00"
 topics:
   - "интерфейсы"
   - "веб-разработка"
-slug: "1/pravilnoe-i-nepravilnoe-avtodopolnenie"
+slug: "1-pravilnoe-i-nepravilnoe-avtodopolnenie"
 feed: false
 ---
 <p>Размышлял об автодополнении. Это когда вводишь в тестовое поле буковки, а умный сервис предлагает тебе варианты, которые этим буковкам соответствуют.</p>

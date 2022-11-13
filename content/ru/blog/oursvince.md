@@ -3,7 +3,7 @@ title: "Oursvince"
 date: "2010-03-03T09:18:55.435"
 topics:
   - "музыка"
-slug: "23/oursvince"
+slug: "23-oursvince"
 feed: false
 ---
 <p>Спешу сообщить о замечательном французском музыканте <a href="http://www.oursvince.com/">Oursvince</a> (Vincent Bernay). Он пишет прекрасную электронную музыку с вкраплениями средневеково-фолково-кельтских тем.</p>

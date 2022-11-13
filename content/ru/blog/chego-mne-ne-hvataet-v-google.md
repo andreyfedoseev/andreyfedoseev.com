@@ -3,7 +3,7 @@ title: "Чего мне не хватает в Google+"
 date: "2011-07-11T12:39:00"
 topics:
   - "google+"
-slug: "43/chego-mne-ne-hvataet-v-google"
+slug: "43-chego-mne-ne-hvataet-v-google"
 feed: false
 ---
 Вот вам мои пять копеек.
