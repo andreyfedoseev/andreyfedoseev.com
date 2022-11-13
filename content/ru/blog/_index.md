@@ -11,6 +11,6 @@ aliases:
 Меня зовут Андрей Федосеев. С 2003 года занимаюсь веб-программированием с использованием языка Python.
 Интересуюсь старыми компьютерными играми.
 
-Работаю в [FineTune](https://www.finetunelearning.com).
+Работаю в [Canonical](https://canonical.com).
 
 <div class="clearfix"></div>
