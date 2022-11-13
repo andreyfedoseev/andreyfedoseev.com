@@ -10,7 +10,7 @@ feed: false
 
 Для мака я специально купил полноразмерную клавиатуру с цифровым блоком, но обнаружил, что там есть только цифры. Никаких стрелок и всего остального.
 
-![Apple20Aluminium20ISO20International20English](/images/Apple20Aluminium20ISO20International20English.png)
+![Apple20Aluminium20ISO20International20English](/ru/images/Apple20Aluminium20ISO20International20English.png)
 
 Целый год я бился, чтобы найти способ поменять значения этих кнопок и, наконец-то, нашёл его.
 
@@ -18,7 +18,7 @@ feed: false
 
 Так выглядят окно настроек этой программки:
 
-![keyremap](/images/keyremap.png)
+![keyremap](/ru/images/keyremap.png)
 
 Кнопка «Reload XML», упоминания Emacs и X11 сразу выдают в ней продукт, написанный программистом для программистов, а значит для меня. На скриншоте видна куча предустановок, которые можно включать и выключать галочками. Кроме этого, можно создавать свои собственные настройки, которые описываются в специальном файле [private.xml](http://pqrs.org/macosx/keyremap4macbook/xml.html). С помощью этого файла можно переназначить вообще все кнопки.
 

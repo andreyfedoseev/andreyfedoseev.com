@@ -38,9 +38,9 @@ feed: false
 
     gconf-editor
     
-![GConf Editor - GTK Window Decorator](/images/gconf-gwd.png)
+![GConf Editor - GTK Window Decorator](/ru/images/gconf-gwd.png)
 
-![GConf Editor - Metacity](/images/gconf-metacity.png)
+![GConf Editor - Metacity](/ru/images/gconf-metacity.png)
 
 ## Emerald
 
@@ -76,7 +76,7 @@ feed: false
 
 если вы хотите использовать Emerald.
 
-![Compiz Settings - Window Decoration](/images/compizconfig-decoration.png)
+![Compiz Settings - Window Decoration](/ru/images/compizconfig-decoration.png)
 
 Теперь соответствующий оконный декоратор будет запускаться вместе с compiz.
 

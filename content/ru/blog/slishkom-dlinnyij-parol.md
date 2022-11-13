@@ -6,4 +6,4 @@ feed: false
 ---
 Linode порадовал.
 
-![Длинный пароль](/images/password-is-too-long.png)
+![Длинный пароль](/ru/images/password-is-too-long.png)

@@ -15,7 +15,7 @@ feed: true
 некоторых видео получилось так себе. Еще мне потребовалось какое-то время, чтобы разобраться, как правильно 
 настроить звук: выставить уровни, задавить шум и т.п. Я даже микрофон специально для этого прикупил:
 
-{{< figure src="/images/adf-plays/blue-yeti.jpg" caption="Микрофон Blue Yeti" attr="автор фотографии Gavin Whitner" attrlink="https://www.flickr.com/photos/156466858@N02/" >}}
+{{< figure src="/ru/images/adf-plays/blue-yeti.jpg" caption="Микрофон Blue Yeti" attr="автор фотографии Gavin Whitner" attrlink="https://www.flickr.com/photos/156466858@N02/" >}}
 
 Сейчас я перестал делать стримы в прямом эфире и сначала записываю геймплей, а потом уже выкладываю. Поэтому 
 картинка стала получше и смотреть не так больно.

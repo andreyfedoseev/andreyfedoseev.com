@@ -7,7 +7,7 @@ topics:
 slug: "47-pro-myisli-derevya-i-malogramotnyih-lyudej"
 feed: false
 ---
-![thoughts-and-trees](/images/thoughts-and-trees.png)
+![thoughts-and-trees](/ru/images/thoughts-and-trees.png)
 
 Меня разражает, когда кто-нибудь говорит «растекаться мыслью по древу». Я уверен, что человек, произнесший эту фразу, не сможет объяснить её смысл. И я могу его понять, ведь в этой фразе нет никакого смысла.
 

@@ -18,7 +18,7 @@ feed: false
 
 Интерфейс программы прост до безобразия и в пояснениях не нуждается.
 
-![GmountISO](/images/gmount-iso.png)
+![GmountISO](/ru/images/gmount-iso.png)
 
 GmountISO входит в состав Ubuntu, поэтому устанавливается она проще простого:
 
