@@ -9,6 +9,4 @@ layout: "index"
 My name is Andrey Fedoseev. I am a passionate Python web developer since 2003.
 I like playing retro video games.
 
-I work at [Canonical](https://canonical.com).
-
 <div class="clearfix"></div>
